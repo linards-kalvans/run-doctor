@@ -1,0 +1,16 @@
+# Only deliberately public source, synthetic fixtures and reviewed aggregates.
+*
+!.gitignore
+!CLAUDE.md
+!README.md
+!LICENSE
+!run_doctor.py
+!pyproject.toml
+!uv.lock
+!tests/
+!tests/test_run_doctor.py
+!tests/fixtures/
+!tests/fixtures/*.log
+!examples/
+!examples/*.json
+!VALIDATION.md
