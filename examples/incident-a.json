@@ -1,0 +1,23 @@
+{
+  "caveats": [
+    "Timestamps have one-second resolution; date and timezone may be absent.",
+    "A tool result marked ok reports wrapper completion, not inner tool or business success."
+  ],
+  "duration_seconds": 600,
+  "event_count": 24,
+  "findings": [
+    "The trace reports a timeout terminal status.",
+    "The largest gap is observed time between logged events; it is not measured model latency or proof of a hang."
+  ],
+  "largest_gap_after_line": 12,
+  "largest_gap_seconds": 204,
+  "repeat_candidate_groups": [],
+  "terminal_status": "timeout",
+  "terminal_status_lines": [
+    29,
+    30
+  ],
+  "tool_ok_result_count": 8,
+  "tool_request_count": 8,
+  "tool_result_count": 8
+}

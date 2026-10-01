@@ -1,0 +1,5 @@
+started: 2026-01-15 12:00:00
+12:00:01 start    | synthetic run
+12:00:03 tool     | -> exec_command(synthetic action)
+12:00:04 result   | exec_command ok 1.0s: synthetic
+12:00:10 final    | status=timeout

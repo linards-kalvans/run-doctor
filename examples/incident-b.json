@@ -1,0 +1,39 @@
+{
+  "caveats": [
+    "Timestamps have one-second resolution; date and timezone may be absent.",
+    "A tool result marked ok reports wrapper completion, not inner tool or business success."
+  ],
+  "duration_seconds": 600,
+  "event_count": 18,
+  "findings": [
+    "The trace reports a timeout terminal status.",
+    "Multiple repeated tool request payloads are a repeat candidate; Hermes payloads may be truncated.",
+    "The largest gap is observed time between logged events; it is not measured model latency or proof of a hang."
+  ],
+  "largest_gap_after_line": 12,
+  "largest_gap_seconds": 226,
+  "repeat_candidate_groups": [
+    {
+      "count": 2,
+      "request_lines": [
+        9,
+        15
+      ]
+    },
+    {
+      "count": 2,
+      "request_lines": [
+        10,
+        16
+      ]
+    }
+  ],
+  "terminal_status": "timeout",
+  "terminal_status_lines": [
+    23,
+    24
+  ],
+  "tool_ok_result_count": 5,
+  "tool_request_count": 5,
+  "tool_result_count": 5
+}

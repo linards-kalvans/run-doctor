@@ -1,0 +1,7 @@
+08:10:00 user | synthetic request
+08:10:01 tool | -> private_tool(CANARY_REPEAT_PAYLOAD)
+08:10:02 result | private_tool ok 1.0s: synthetic
+08:10:03 tool | -> private_tool(CANARY_REPEAT_PAYLOAD)
+08:10:04 result | private_tool ok 1.0s: synthetic
+08:10:05 tool | -> private_tool(unique)
+08:10:06 final | status=completed
